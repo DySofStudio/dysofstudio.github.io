@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dysofstudio.github.io/sitemap.xml

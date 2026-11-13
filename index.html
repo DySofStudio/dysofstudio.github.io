@@ -3,11 +3,46 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Super Bots Invasion · DySof</title>
-<meta name="description" content="Super Bots Invasion: una aventura 3D hecha por un papá y su hijo. Cuatro amigos, mundos invadidos por robots y jefes gigantes. Gratis en Google Play.">
-<meta property="og:title" content="Super Bots Invasion">
-<meta property="og:description" content="Una aventura 3D hecha por un papá y su hijo. Gratis en Google Play.">
+<title>Super Bots Invasion – Juego de aventura y acción para Android | DySof Studio</title>
+<meta name="description" content="Super Bots Invasion: juego de aventura y acción en 3D para Android. Vence jefes gigantes, navega tu propio barco y salva tres mundos invadidos por robots. Gratis en Google Play, también sin internet.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dysofstudio.github.io/">
+<meta name="theme-color" content="#0d1220">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DySof Studio">
+<meta property="og:url" content="https://dysofstudio.github.io/">
+<meta property="og:title" content="Super Bots Invasion – Aventura y acción en 3D">
+<meta property="og:description" content="Vence jefes gigantes, navega tu propio barco y salva tres mundos invadidos por robots. Gratis en Google Play.">
 <meta property="og:image" content="https://dysofstudio.github.io/img/aqueon_cerca.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta property="og:locale" content="es_LA">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Super Bots Invasion – Aventura y acción en 3D">
+<meta name="twitter:description" content="Vence jefes gigantes, navega tu propio barco y salva tres mundos invadidos por robots. Gratis en Google Play.">
+<meta name="twitter:image" content="https://dysofstudio.github.io/img/aqueon_cerca.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Super Bots Invasion",
+  "alternateName": "Super Bots Invasion: Aventura",
+  "url": "https://dysofstudio.github.io/",
+  "image": "https://dysofstudio.github.io/img/aqueon_cerca.jpg",
+  "description": "Juego de aventura y acción en 3D para Android: cuatro héroes con poderes, jefes gigantes, un barco propio y tres mundos invadidos por robots.",
+  "genre": ["Aventura", "Acción", "RPG de acción"],
+  "gamePlatform": "Android",
+  "operatingSystem": "Android",
+  "applicationCategory": "GameApplication",
+  "inLanguage": ["es", "en"],
+  "author": { "@type": "Organization", "name": "DySof Studio", "url": "https://dysofstudio.github.io/" },
+  "publisher": { "@type": "Organization", "name": "DySof Studio" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock",
+              "url": "https://play.google.com/store/apps/details?id=com.dysof.superbotsinvasion" },
+  "sameAs": ["https://play.google.com/store/apps/details?id=com.dysof.superbotsinvasion", "https://www.tiktok.com/@dysofstudio", "https://www.facebook.com/dysofstudio", "https://www.youtube.com/channel/UCtB33notFfh0FTmKCwEUDAg"]
+}
+</script>
 <link rel="icon" href="icono.png">
 <style>
   @font-face { font-family: "Titan"; src: url(fonts/TitanOne-Regular.ttf) format("truetype"); font-display: swap; }
@@ -149,6 +184,9 @@
   .video { position: relative; aspect-ratio: 16/9; border-radius: 16px; overflow: hidden; border: 1px solid var(--line); }
   .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
   footer { text-align: center; color: var(--muted); font-size: 14px; padding: 40px 16px 48px; }
+  footer .social { display: flex; justify-content: center; gap: 22px; margin: 10px 0 14px; flex-wrap: wrap; }
+  footer .social a { color: var(--gold); font-weight: 700; text-decoration: none; font-size: 15px; }
+  footer .social a:hover { text-decoration: underline; }
   footer b { font-family: CinzelDeco, Georgia, serif; color: var(--gold); font-size: 20px; letter-spacing: .1em; display: block; margin-bottom: 6px; }
 
   [lang="en"] .es, [lang="es"] .en { display: none !important; }
@@ -343,15 +381,20 @@
 </section>
 
 <footer>
-  <b>DySof</b>
-  © 2026 DySof · <a href="privacidad.html"><span class="es">Política de privacidad</span><span class="en">Privacy policy</span></a>
+  <b>DySof Studio</b>
+  <div class="social">
+    <a href="https://www.tiktok.com/@dysofstudio" target="_blank" rel="noopener">TikTok</a>
+    <a href="https://www.facebook.com/dysofstudio" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://www.youtube.com/channel/UCtB33notFfh0FTmKCwEUDAg" target="_blank" rel="noopener">YouTube</a>
+  </div>
+  © 2026 DySof Studio · <a href="privacidad.html"><span class="es">Política de privacidad</span><span class="en">Privacy policy</span></a>
 </footer>
 
 <div class="lightbox" id="lightbox"><img alt=""></div>
 
 <script>
   // Tráiler: cuando esté en YouTube, poner aquí su código (lo que va después de "v=" en el enlace) y aparece solo.
-  const YOUTUBE_ID = "";
+  const YOUTUBE_ID = "MV9bqu4e5wE";
   if (YOUTUBE_ID) {
     document.getElementById("video").style.display = "";
     document.getElementById("videoBox").innerHTML =
